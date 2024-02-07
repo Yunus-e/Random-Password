@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Random Password</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pass-box">
+            <input type="text" disabled class="input-pass" placeholder="Create The Password">
+            <i class="fa-regular fa-copy" id="copy-btn"></i>
+        </div>
+        <span class="copy-text">Copied Password</span>
+        <div class="range">
+            <input type="range" class="input-range" max="15">
+            <span class="range-display"></span>
+        </div>
+        <div class="generate-btn">
+            <button>Generate Password</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
